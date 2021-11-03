@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_DataTypes", "DataTypes\01_DataTypes.csproj", "{D5CDD911-23AB-4910-8605-5D51188E907F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_DataTypes", "DataTypes\01_DataTypes.csproj", "{D5CDD911-23AB-4910-8605-5D51188E907F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Operators", "Operators\02_Operators.csproj", "{D98FEA15-CCBB-4933-B157-BAE26BE7FF05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Operators", "Operators\02_Operators.csproj", "{D98FEA15-CCBB-4933-B157-BAE26BE7FF05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_IntroToConditionals", "03_IntroToConditionals\03_IntroToConditionals.csproj", "{8D398E5F-BBF5-4313-9D57-B5602D8A1AB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_IntroToConditionals", "03_IntroToConditionals\03_IntroToConditionals.csproj", "{8D398E5F-BBF5-4313-9D57-B5602D8A1AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_ClassVsInstance", "04_ClassVsInstance\04_ClassVsInstance.csproj", "{1AFC4C9A-A979-4A0B-A263-9C7B39412E59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8D398E5F-BBF5-4313-9D57-B5602D8A1AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D398E5F-BBF5-4313-9D57-B5602D8A1AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D398E5F-BBF5-4313-9D57-B5602D8A1AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFC4C9A-A979-4A0B-A263-9C7B39412E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFC4C9A-A979-4A0B-A263-9C7B39412E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFC4C9A-A979-4A0B-A263-9C7B39412E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFC4C9A-A979-4A0B-A263-9C7B39412E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,24 +7,33 @@ class Person
     public int age;
     public Person(int initialAge)
     {
-        //assign parameter to age variable
-        initialAge = age;
+        
         //check to make sure age is not negative
-        if (age>0)
+        if (initialAge < 0)
         {
-
-        }
-        else
-        {
+            Console.WriteLine("Age is not valid, setting age to 0.");
             age = 0;
-            Console.WriteLine("Age is not valid, setting age to 0");
         }
-
+        else { age = initialAge; }
+       
         // Add some more code to run some checks on initialAge
     }
     public void amIOld()
     {
-        // Do some computations in here and print out the correct statement to the console 
+
+        // Do some computations in here and print out the correct statement to the console
+        if (age < 13)
+        {
+            Console.WriteLine("You are young.");
+        }
+        else if (age >= 13 && age < 18)
+        {
+            Console.WriteLine("You are a teenager.");
+        }
+        else
+        {
+            Console.WriteLine("You are old.");
+        }
     }
 
     public void yearPasses()

@@ -23,6 +23,11 @@ namespace _07_Arrays
             int n = Convert.ToInt32(Console.ReadLine().Trim());
 
             List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+
+            for (var i = n - 1; i >= 0; i--)
+            {
+                Console.Write(arr[i] + " ");
+            }
         }
     }
 }

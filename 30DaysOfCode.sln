@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Review", "06_Review\06_R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Arrays", "07_Arrays\07_Arrays.csproj", "{13BF42A3-3CB6-4EEC-8597-BA571E1AC563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumValueStrings", "SumValueStrings\SumValueStrings.csproj", "{758A8060-7722-4A94-B686-BF8CCF7FAFCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumValueStrings", "SumValueStrings\SumValueStrings.csproj", "{758A8060-7722-4A94-B686-BF8CCF7FAFCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
